@@ -34,7 +34,7 @@ int main(int argc, char **argv)
             matC[v][w]=0;
             for (x=0; x<2; x++)
             {
-                tmp=matA[v][x]*matB[x][w];
+                z=matA[v][x]*matB[x][w];
                 matC[v][w]=matC[v][w]+z;
             }
         }
