@@ -1,5 +1,5 @@
 #include <iostream>
-#include <linux.h>
+#include <windows.h>
 using namespace std;
  
   int main (int argc, char *argv[])
@@ -21,11 +21,11 @@ cout<<endl;
 }
 cout<<endl;
 }
-cout<<"Hasil penjumlahan Matriks A dan Matriks B "<<endl;
+cout<<"Hasil pengurangan Matriks A dan Matriks B "<<endl;
   for (int i=0; i<2; i++){
     for (int j=0; j<2; j++){
 
-    cout<<matA[i] [j] + matB [i][j]<<" ";
+    cout<<matA[i] [j] - matB [i][j]<<" ";
 }
 cout<<endl;
 }
